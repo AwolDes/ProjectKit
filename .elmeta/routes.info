@@ -1,0 +1,175 @@
+Projects
+├── app.js
+├── bin
+│   └── www
+├── ember.json
+├── package.json
+├── public
+│   ├── favicon.png
+│   ├── fonts
+│   │   ├── FontAwesome.otf
+│   │   ├── fontawesome-webfont.eot
+│   │   ├── fontawesome-webfont.svg
+│   │   ├── fontawesome-webfont.ttf
+│   │   └── fontawesome-webfont.woff
+│   ├── images
+│   ├── index.html
+│   ├── javascripts
+│   │   ├── components
+│   │   ├── config
+│   │   │   ├── app.js
+│   │   │   └── routes.js
+│   │   ├── controllers
+│   │   │   ├── edit_person_controller.js
+│   │   │   ├── login_controller.js
+│   │   │   ├── new_person_controller.js
+│   │   │   ├── people_controller.js
+│   │   │   ├── person_controller.js
+│   │   │   └── signup_controller.js
+│   │   ├── helpers
+│   │   ├── mixins
+│   │   ├── models
+│   │   │   └── person.js
+│   │   ├── routes
+│   │   │   ├── application_route.js
+│   │   │   ├── new_person_route.js
+│   │   │   ├── people_route.js
+│   │   │   └── protected_route.js
+│   │   ├── templates
+│   │   │   ├── application.hbs
+│   │   │   ├── components
+│   │   │   │   ├── input-email.hbs
+│   │   │   │   ├── _input_text.hbs
+│   │   │   │   └── input-text.hbs
+│   │   │   ├── edit_person.hbs
+│   │   │   ├── index.hbs
+│   │   │   ├── login.hbs
+│   │   │   ├── people.hbs
+│   │   │   ├── person.hbs
+│   │   │   ├── protected.hbs
+│   │   │   └── signup.hbs
+│   │   ├── test
+│   │   │   ├── index.html
+│   │   │   ├── integration
+│   │   │   ├── support
+│   │   │   │   ├── qunit-1.13.0.css
+│   │   │   │   └── qunit-1.13.0.js
+│   │   │   └── unit
+│   │   ├── vendor
+│   │   │   ├── ember-data.js
+│   │   │   ├── ember.js
+│   │   │   ├── ember-simple-auth.js
+│   │   │   ├── handlebars.js
+│   │   │   ├── jquery.js
+│   │   │   └── sass-bootstrap.js
+│   │   └── views
+│   │       ├── login_view.js
+│   │       └── textfield_view.js
+│   └── stylesheets
+│       ├── lib
+│       │   ├── bootstrap
+│       │   │   ├── _alerts.scss
+│       │   │   ├── _badges.scss
+│       │   │   ├── bootstrap.scss
+│       │   │   ├── _breadcrumbs.scss
+│       │   │   ├── _button-groups.scss
+│       │   │   ├── _buttons.scss
+│       │   │   ├── _carousel.scss
+│       │   │   ├── _close.scss
+│       │   │   ├── _code.scss
+│       │   │   ├── _component-animations.scss
+│       │   │   ├── _dropdowns.scss
+│       │   │   ├── _forms.scss
+│       │   │   ├── _glyphicons.scss
+│       │   │   ├── _grid.scss
+│       │   │   ├── _input-groups.scss
+│       │   │   ├── _jumbotron.scss
+│       │   │   ├── _labels.scss
+│       │   │   ├── _list-group.scss
+│       │   │   ├── _media.scss
+│       │   │   ├── _mixins.scss
+│       │   │   ├── _modals.scss
+│       │   │   ├── _navbar.scss
+│       │   │   ├── _navs.scss
+│       │   │   ├── _normalize.scss
+│       │   │   ├── _pager.scss
+│       │   │   ├── _pagination.scss
+│       │   │   ├── _panels.scss
+│       │   │   ├── _popovers.scss
+│       │   │   ├── _print.scss
+│       │   │   ├── _progress-bars.scss
+│       │   │   ├── _responsive-utilities.scss
+│       │   │   ├── _scaffolding.scss
+│       │   │   ├── _tables.scss
+│       │   │   ├── _theme.scss
+│       │   │   ├── _thumbnails.scss
+│       │   │   ├── _tooltip.scss
+│       │   │   ├── _type.scss
+│       │   │   ├── _utilities.scss
+│       │   │   ├── _variables.scss
+│       │   │   └── _wells.scss
+│       │   ├── bootstrap-social
+│       │   │   └── bootstrap-social.scss
+│       │   ├── font-awesome
+│       │   │   ├── _bordered-pulled.scss
+│       │   │   ├── _core.scss
+│       │   │   ├── _fixed-width.scss
+│       │   │   ├── font-awesome.scss
+│       │   │   ├── _icons.scss
+│       │   │   ├── _larger.scss
+│       │   │   ├── _list.scss
+│       │   │   ├── _mixins.scss
+│       │   │   ├── _path.scss
+│       │   │   ├── _rotated-flipped.scss
+│       │   │   ├── _spinning.scss
+│       │   │   ├── _stacked.scss
+│       │   │   └── _variables.scss
+│       │   └── foundation
+│       │       ├── foundation
+│       │       │   ├── components
+│       │       │   │   ├── _accordion.scss
+│       │       │   │   ├── _alert-boxes.scss
+│       │       │   │   ├── _block-grid.scss
+│       │       │   │   ├── _breadcrumbs.scss
+│       │       │   │   ├── _button-groups.scss
+│       │       │   │   ├── _buttons.scss
+│       │       │   │   ├── _clearing.scss
+│       │       │   │   ├── _dropdown-buttons.scss
+│       │       │   │   ├── _dropdown.scss
+│       │       │   │   ├── _flex-video.scss
+│       │       │   │   ├── _forms.scss
+│       │       │   │   ├── _functions.scss
+│       │       │   │   ├── _global.scss
+│       │       │   │   ├── _grid.scss
+│       │       │   │   ├── _inline-lists.scss
+│       │       │   │   ├── _joyride.scss
+│       │       │   │   ├── _keystrokes.scss
+│       │       │   │   ├── _labels.scss
+│       │       │   │   ├── _magellan.scss
+│       │       │   │   ├── _offcanvas.scss
+│       │       │   │   ├── _orbit.scss
+│       │       │   │   ├── _pagination.scss
+│       │       │   │   ├── _panels.scss
+│       │       │   │   ├── _pricing-tables.scss
+│       │       │   │   ├── _progress-bars.scss
+│       │       │   │   ├── _reveal.scss
+│       │       │   │   ├── _side-nav.scss
+│       │       │   │   ├── _split-buttons.scss
+│       │       │   │   ├── _sub-nav.scss
+│       │       │   │   ├── _switch.scss
+│       │       │   │   ├── _tables.scss
+│       │       │   │   ├── _tabs.scss
+│       │       │   │   ├── _thumbs.scss
+│       │       │   │   ├── _tooltips.scss
+│       │       │   │   ├── _top-bar.scss
+│       │       │   │   ├── _type.scss
+│       │       │   │   └── _visibility.scss
+│       │       │   ├── _functions.scss
+│       │       │   └── _settings.scss
+│       │       ├── foundation.scss
+│       │       └── normalize.scss
+│       └── style.scss
+├── README.md
+└── routes.info
+
+
